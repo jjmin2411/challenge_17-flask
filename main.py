@@ -43,7 +43,7 @@ def search():
                 jobs.append(job)
                 
         db[search_term] = jobs
-    return render_template("search.html", keyword=keyword, jobs=jobs)
+    return render_template("search.html", keyword=keyword,  jobs=jobs)
 
 # /YOUR CODE
 
